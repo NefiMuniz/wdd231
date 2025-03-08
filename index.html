@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD231 project.">
+    <meta name="author" content="Néfi Muniz">
+    <title>Home - WDD231</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/profile.jpg" alt="Profile Picture">
+        <span>Néfi Muniz</span>
+    </header>
+    <nav>
+        <button id="menu-button">☰</button>
+        <ul id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/nefimuniz/">LinkedIn</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <div class="section-split">
+
+            <section class="box shadow section-left">
+                <h2>Couse Work</h2>
+                <ul>
+                    <li>* Item 1</li>
+                    <li>* Item 2</li>
+                    <li>* Item 3</li>
+                </ul>
+            </section>
+            
+            <section class="box shadow section-right">
+                <h2>Bahia, Brazil</h2>
+                <figure>
+                    <img src="images/temple-ssa.jpg" alt="Sample Image">
+                    <figcaption>Salvador Temple</figcaption>
+                </figure>
+            </section>
+        </div>
+        
+        <section class="box shadow courses">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="button-container-1">
+                <button class="btn-1">All</button>
+                <button class="btn-1">CSE</button>
+                <button class="btn-1">WDD</button>
+            </div>
+
+            <div class="button-container-2">
+                <button class="btn-2">CSE 110</button>
+                <button class="btn-2">WDD 130</button>
+                <button class="btn-2">CSE 111</button>
+                <button class="btn-2">CSE 210</button>
+                <button class="btn-2">WDD 131</button>
+                <button class="btn-2">WDD 231</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Néfi Muniz | Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+    
+</body>
+</html>

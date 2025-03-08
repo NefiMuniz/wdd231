@@ -1,0 +1,87 @@
+/* Large Screen Layout */
+@media (min-width: 768px) {
+    body {
+        text-align: left;
+    }
+    
+    /* Navigation */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 2rem;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: center;
+        flex: 1;
+    }
+    nav li {
+        border: none;
+    }
+    
+    /* Main Layout */
+    .section-split {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+    .section-left {
+        grid-column: 1/2;
+    }
+    .section-right {
+        grid-column: 2/3;
+    }
+    section {
+        text-align: center;
+    }
+
+
+    /* Buttons Layout */
+    .button-container-1 {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .button-container-1 .btn-1 {
+        flex: 1;
+        background: #00466b;
+        color: white;
+        border: none;
+        padding: 0.8rem;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .button-container-1 .btn-1:hover {
+        background: #ffcc00;
+        color: #333;
+    }
+
+    .button-container-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+    }
+
+    .button-container-2 .btn-2 {
+        background: #055a08;
+        color: white;
+        border: none;
+        padding: 0.8rem;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .button-container-2 .btn-2:hover {
+        background: #ffcc22;
+        color: rgb(0, 0, 0);
+    }
+}
