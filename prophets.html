@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Latter-day Prophets - A list of prophets from The Church of Jesus Christ of Latter-day Saints.">
+    <meta name="author" content="Nefi Muniz">
+    <meta property="og:title" content="Latter-day Prophets">
+    <meta property="og:description" content="A list of prophets from The Church of Jesus Christ of Latter-day Saints.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nefimuniz.github.io/wdd230/prophets.html">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="Latter-day Prophets">
+    <title>Latter-day Prophets</title>
+    <link rel="stylesheet" href="styles/prophets.css">
+    <script src="scripts/prophets.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Latter-day Prophets</h1>
+    </header>
+    <main>
+        <!-- Filter -->
+        <div class="filters">
+            <select id="filter-type">
+                <option disabled selected>Choose a filter</option>
+                <option value="birthplace">Born in</option>
+                <option value="livedMoreThan">Lived more than</option>
+                <option value="numOfChildren">Number of Children</option>
+                <option value="servedAtLeast">Served for at least</option>
+            </select>
+            <select id="filter-value" style="width: 150px;"></select>
+            <button id="filter-button">Apply Filter</button>
+            <button id="clear-filter">Clear Filter</button>
+        </div>
+        <div id="cards"></div>
+    </main>
+    <footer>
+        Nefi Muniz | Latter-day Prophets
+    </footer>
+</body>
+</html>
