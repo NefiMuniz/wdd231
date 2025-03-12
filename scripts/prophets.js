@@ -169,8 +169,10 @@ function filterProphets(prophets, type, value) {
 
         case 'livedMoreThan':
             return prophets.filter(prophet => {
-                const ageAtDeath = prophet.death ? new Date(prophet.death).getFullYear() - new Date(prophet.birthdate).getFullYear() : null;
-                return ageAtDeath && ageAtDeath > parseInt(value);
+                const birthYear = new Date(prophet.birthdate).getFullYear();
+                const deathYear = prophet.death ? new Date(prophet.death).getFullYear() : new Date().getFullYear();
+                const age = deathYear - birthYear;
+                return age >= parseInt(value);
             });
 
         case 'numOfChildren':
