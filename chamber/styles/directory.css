@@ -1,0 +1,124 @@
+/* Directory Page Styles */
+h1 {
+  text-align: center;
+  color: #0077be; /* Ocean blue */
+  margin-top: 2rem;
+}
+
+.view-toggle {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.view-toggle button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #ffd700; /* Yellow */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.view-toggle button:hover {
+  background-color: #ffc107; /* Darker yellow */
+}
+
+/* Grid View */
+.grid-view {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.grid-view .member-card {
+  background-color: #e0f7fa; /* Soft blue background */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.grid-view .member-card h2 {
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+
+.grid-view .member-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.grid-view .member-card p {
+  margin: 0.5rem 0;
+}
+
+.grid-view .member-card a {
+  display: block;
+  margin: 0.5rem 0;
+  color: #0077be; /* Ocean blue */
+  text-decoration: none;
+}
+
+.grid-view .member-card a:hover {
+  text-decoration: underline;
+}
+
+/* List View */
+.list-view .member-card {
+  background-color: #e0f7fa; /* Soft blue background */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-view .member-card h2 {
+  font-weight: bold;
+  flex: 1;
+  margin: 0;
+}
+
+.list-view .member-card .info {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.list-view .member-card .info p {
+  margin: 0.25rem 0;
+}
+
+.list-view .member-card .level {
+  flex: 0.5;
+  text-align: center;
+}
+
+.list-view .member-card a {
+  color: #0077be; /* Ocean blue */
+  text-decoration: none;
+}
+
+.list-view .member-card a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Grid and List Views */
+@media (max-width: 768px) {
+  .grid-view {
+    grid-template-columns: 1fr;
+  }
+
+  .list-view .member-card {
+    flex-direction: row; /* Mantém o layout horizontal */
+    text-align: left;
+  }
+
+  .list-view .member-card .info {
+    margin: 0 1rem;
+  }
+}

@@ -1,0 +1,38 @@
+/* Large View Styles */
+@media (min-width: 769px) {
+  header {
+    padding: 1rem 2rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    justify-content: flex-end;
+  }
+
+  nav ul li {
+    margin-left: 2rem;
+  }
+
+  .view-toggle {
+    margin: 2rem 0;
+  }
+
+  .grid-view .member-card {
+    grid-template-columns: repeat(3, 1fr); /* 3 cards in a row */
+  }
+
+  .list-view .member-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  .list-view .member-card img {
+    max-width: 100px;
+    margin-right: 1rem;
+  }
+}

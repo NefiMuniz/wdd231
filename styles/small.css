@@ -32,6 +32,12 @@ header span {
 nav {
     background: #333;
     padding: 0.2rem 0;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+}
+nav.open {
+    grid-template-rows: 1fr;
 }
 nav button {
     background: none;
@@ -66,6 +72,14 @@ nav a:hover, nav a.active {
     background: #ffcc00;
     color: #333;
 }
+
+#menu-button {
+    transition: transform 0.5s ease-in;
+}
+#menu-button.open {
+    transform: rotate(90deg);
+}
+
 
 /* Main Content */
 main {

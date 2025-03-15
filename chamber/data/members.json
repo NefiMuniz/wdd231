@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Sunny Bites Cafe",
+      "address": "123 Ocean View St, Bahia, BR",
+      "phone": "(555) 123-4567",
+      "website": "https://sunnybitescafe.com",
+      "image": "teste.jpg",
+      "membershipLevel": 3,
+      "mapLink": "https://maps.google.com/?q=34.012345,-118.123456"
+    },
+    {
+      "name": "Golden Waves Hotel",
+      "address": "456 Beachfront Ave, Bahia, BR",
+      "phone": "(555) 234-5678",
+      "website": "https://goldenwaveshotel.com",
+      "image": "teste.jpg",
+      "membershipLevel": 2,
+      "mapLink": "https://maps.google.com/?q=34.023456,-118.234567"
+    },
+    {
+      "name": "Beach Fun Park",
+      "address": "789 Boardwalk Ln, Bahia, BR",
+      "phone": "(555) 345-6789",
+      "website": "https://seasidefunpark.com",
+      "image": "teste.jpg",
+      "membershipLevel": 1,
+      "mapLink": "https://maps.google.com/?q=34.034567,-118.345678"
+    },
+    {
+      "name": "Blue Horizon Restaurant",
+      "address": "321 Coastal Hwy, Bahia, BR",
+      "phone": "(555) 456-7890",
+      "website": "https://bluehorizonrestaurant.com",
+      "image": "teste.jpg",
+      "membershipLevel": 3,
+      "mapLink": "https://maps.google.com/?q=34.045678,-118.456789"
+    },
+    {
+      "name": "Ocean Breeze Inn",
+      "address": "654 Shoreline Dr, Bahia, BR",
+      "phone": "(555) 567-8901",
+      "website": "https://oceanbreezeinn.com",
+      "image": "teste.jpg",
+      "membershipLevel": 2,
+      "mapLink": "https://maps.google.com/?q=34.056789,-118.567890"
+    },
+    {
+      "name": "Surf & Turf Grill",
+      "address": "987 Marina Way, Bahia, BR",
+      "phone": "(555) 678-9012",
+      "website": "https://surfturfgrill.com",
+      "image": "teste.jpg",
+      "membershipLevel": 1,
+      "mapLink": "https://maps.google.com/?q=34.067890,-118.678901"
+    },
+    {
+      "name": "Adventure Cove",
+      "address": "135 Waterfront Rd, Bahia, BR",
+      "phone": "(555) 789-0123",
+      "website": "https://adventurecove.com",
+      "image": "teste.jpg",
+      "membershipLevel": 3,
+      "mapLink": "https://maps.google.com/?q=34.078901,-118.789012"
+    }
+  ]
+}

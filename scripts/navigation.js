@@ -1,5 +1,11 @@
 // Hamburguer Menu
-document.getElementById('menu-button').addEventListener('click', function() {
-    const navMenu = document.getElementById('nav-menu');
-    navMenu.classList.toggle('active');
+const menuButton = document.getElementById('menu-button');
+const navMenu = document.getElementById('nav');
+
+menuButton.addEventListener('click', () => {
+    // Toggle class for menu animation
+    menuButton.classList.toggle('open');
+    
+    // Toggle class for menu visibility
+    navMenu.classList.toggle('open');
 });
