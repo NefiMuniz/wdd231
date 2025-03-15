@@ -1,7 +1,7 @@
 /* Directory Page Styles */
 h1 {
   text-align: center;
-  color: #0077be; /* Ocean blue */
+  color: #005f8c;
   margin-top: 2rem;
 }
 
@@ -13,15 +13,14 @@ h1 {
 .view-toggle button {
   margin: 0 0.5rem;
   padding: 0.5rem 1rem;
-  background-color: #ffd700; /* Yellow */
-  border: none;
+  background-color: #ffd700;
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
 }
 
 .view-toggle button:hover {
-  background-color: #ffc107; /* Darker yellow */
+  background-color: #ffc107;
 }
 
 /* Grid View */
@@ -33,7 +32,7 @@ h1 {
 }
 
 .grid-view .member-card {
-  background-color: #e0f7fa; /* Soft blue background */
+  background-color: #e0f7fa;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 1rem;
@@ -58,7 +57,7 @@ h1 {
 .grid-view .member-card a {
   display: block;
   margin: 0.5rem 0;
-  color: #0077be; /* Ocean blue */
+  color: #005f8c;
   text-decoration: none;
 }
 
@@ -68,7 +67,7 @@ h1 {
 
 /* List View */
 .list-view .member-card {
-  background-color: #e0f7fa; /* Soft blue background */
+  background-color: #e0f7fa;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 1rem;
@@ -99,7 +98,7 @@ h1 {
 }
 
 .list-view .member-card a {
-  color: #0077be; /* Ocean blue */
+  color: #005f8c;
   text-decoration: none;
 }
 
@@ -114,7 +113,7 @@ h1 {
   }
 
   .list-view .member-card {
-    flex-direction: row; /* Mantém o layout horizontal */
+    flex-direction: row;
     text-align: left;
   }
 
