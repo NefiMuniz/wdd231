@@ -24,9 +24,9 @@ function displayMembers(members) {
       <img src="images/${member.image}" alt="${member.name}">
       <p>Membership Level: ${member.membershipLevel}</p>
       <p>${member.address}</p>
+      <a href="${member.mapLink}" target="_blank">View on Map</a>
       <p>${member.phone}</p>
       <a href="${member.website}" target="_blank">Visit Website</a>
-      <a href="${member.mapLink}" target="_blank">View on Map</a>
     `;
     directory.appendChild(card);
   });

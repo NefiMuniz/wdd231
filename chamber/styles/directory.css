@@ -57,7 +57,7 @@ h1 {
 .grid-view .member-card a {
   display: block;
   margin: 0.5rem 0;
-  color: #005f8c;
+  color: #0011ff;
   text-decoration: none;
 }
 
@@ -98,7 +98,7 @@ h1 {
 }
 
 .list-view .member-card a {
-  color: #005f8c;
+  color: #0011ff;
   text-decoration: none;
 }
 
