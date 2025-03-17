@@ -58,8 +58,6 @@ nav ul li a {
   transition: background-color 0.3s ease;
 }
 
-
-
 nav ul li a:hover,
 nav ul li.active {
   background-color: #585300;
@@ -100,15 +98,18 @@ footer {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 80px;
+    top: 140px;
     max-height: 0;
     overflow: hidden;
     opacity: 0;
+    display: none;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
   }
-
+  
   nav ul.active {
     max-height: 500px;
     opacity: 1;
+    display: flex;
   }
 
   footer {
