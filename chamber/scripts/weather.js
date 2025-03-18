@@ -2,7 +2,7 @@ const weatherInfo = document.getElementById('weather-info');
 // SSA coords
 const lat = -12.98;
 const lon = -38.50;
-const apiKey = '9807125f14ee86ee4c74155a48d201d6';
+const apiKey = ProcessingInstruction.env.WEATHER_API_KEY;
 const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
 
 async function fetchWeather() {
