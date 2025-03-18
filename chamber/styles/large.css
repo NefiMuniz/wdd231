@@ -35,4 +35,23 @@
     max-width: 100px;
     margin-right: 1rem;
   }
+
+  /* Index */
+  .hero img {
+    max-width: 768px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .events {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  .weather-card {
+    margin-top: 0;
+  }
+
 }

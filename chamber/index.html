@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WDD231 Chamber">
+  <meta name="author" content="Néfi Muniz">
+  <meta property="og:title" content="Bahia Chamber of Commerce">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nefimuniz.github.io/wdd231/chamber/index.html">
+  <meta property="og:image" content="https://nefimuniz.github.io/wdd231/chamber/images/teste.jpg">
+  <title>Bahia Chamber of Commerce</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <script src="scripts/lastModified.js" defer></script>
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/weather.js" defer></script>
+  <script src="scripts/spotlight.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/teste.jpg" alt="Logo">
+      <h1>Bahia Chamber of Commerce</h1>
+    </div>
+  </header>
+  <nav>
+    <button id="hamburgerBtn">&#9776;</button>
+    <ul id="primaryNav" class="menuLinks">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="discover.html">Discover</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Welcome to the Bahia Chamber of Commerce</h1>
+    <section class="hero">
+      <img src="images/ssahero.jpg" alt="Model Market">
+      <div class="hero-content">
+        <h2>Join Us Today!</h2>
+        <p>Be part of a thriving community of businesses in Bahia.</p>
+        <a href="join.html" class="cta-button">Join Now</a>
+      </div>
+    </section>
+
+    <h2>Upcoming Events</h2>
+    <section class="events">
+      <div class="event-card">
+        <h3>Business Networking Night</h3>
+        <p>Date: October 15, 2023</p>
+        <p>Location: Golden Waves Hotel</p>
+      </div>
+      <div class="event-card">
+        <h3>Annual Beach Cleanup</h3>
+        <p>Date: November 5, 2023</p>
+        <p>Location: Beachfront Ave</p>
+      </div>
+    </section>
+    
+    <section class="weather">
+      <h2>Current Weather</h2>
+      <div id="weather-info">
+        <!-- Weather data -->
+      </div>
+    </section>
+      
+    <section class="spotlights">
+      <h2>Member Spotlights</h2>
+      <div class="spotlight-cards">
+        <!-- Member cards -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="copyrightYear"></span> | Nefi Muniz | WDD 231</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
