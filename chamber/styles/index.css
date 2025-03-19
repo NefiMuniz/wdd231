@@ -12,12 +12,15 @@ main h1 {
   text-align: center;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
+  overflow: hidden;
 }
 
 .hero img {
-  width: 768px;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-content {
@@ -55,10 +58,16 @@ main h1 {
 
 /* Events Section */
 .events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
   margin: 2rem 0;
 }
 
 .event-card {
+  width: 90%;
+  max-width: 400px;
   background-color: #e0f7fa;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -67,12 +76,16 @@ main h1 {
 }
 
 .event-card h3 {
+  text-align: center;
   margin: 0 0 0.5rem;
   color: #005f8c;
 }
 
 /* Weather Section */
 .weather-card {
+  width: 90%;
+  max-width: 300px;
+  margin: 1rem auto;
   background-color: #e0f7fa;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -81,18 +94,24 @@ main h1 {
 }
 
 .weather-card img {
-  width: 50px;
-  height: 50px;
+  margin: 0 auto 1rem;
+  display: block;
+  width: 100px;
+  height: 100px;
 }
 
 /* Spotlights Section */
 .spotlight-cards {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 1rem 0;
 }
 
 .spotlight-card {
+  width: 90%;
+  max-width: 300px;
   background-color: #e0f7fa;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -115,4 +134,32 @@ main h1 {
 
 .spotlight-card p {
   margin: 0.25rem 0;
+}
+
+@media (min-width: 769px) {
+  .hero img {
+    max-width: 95%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .spotlight-cards {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .spotlight-card {
+    width: calc(50% - 1rem);
+  }
+
+  .events {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .event-card {
+    width: calc(50% - 1rem);
+  }
 }

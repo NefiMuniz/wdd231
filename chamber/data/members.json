@@ -7,7 +7,7 @@
       "website": "https://sunnybitescafe.com",
       "image": "teste.jpg",
       "membershipLevel": 3,
-      "mapLink": "https://maps.google.com/?q=34.012345,-118.123456"
+      "mapLink": "https://maps.google.com/?q=-12.98,-38.50"
     },
     {
       "name": "Golden Waves Hotel",
@@ -16,16 +16,16 @@
       "website": "https://goldenwaveshotel.com",
       "image": "teste.jpg",
       "membershipLevel": 2,
-      "mapLink": "https://maps.google.com/?q=34.023456,-118.234567"
+      "mapLink": "https://maps.google.com/?q=-12.98,-38.50"
     },
     {
       "name": "Beach Fun Park",
       "address": "789 Boardwalk Ln, Bahia, BR",
       "phone": "(555) 345-6789",
-      "website": "https://seasidefunpark.com",
+      "website": "https://beachfunpark.com",
       "image": "teste.jpg",
       "membershipLevel": 1,
-      "mapLink": "https://maps.google.com/?q=34.034567,-118.345678"
+      "mapLink": "https://maps.google.com/?q=-12.98,-38.50"
     },
     {
       "name": "Blue Horizon Restaurant",
@@ -34,7 +34,7 @@
       "website": "https://bluehorizonrestaurant.com",
       "image": "teste.jpg",
       "membershipLevel": 3,
-      "mapLink": "https://maps.google.com/?q=34.045678,-118.456789"
+      "mapLink": "https://maps.google.com/?q=-12.98,-38.50"
     },
     {
       "name": "Ocean Breeze Inn",
@@ -43,7 +43,7 @@
       "website": "https://oceanbreezeinn.com",
       "image": "teste.jpg",
       "membershipLevel": 2,
-      "mapLink": "https://maps.google.com/?q=34.056789,-118.567890"
+      "mapLink": "https://maps.google.com/?q=-12.98,-38.50"
     },
     {
       "name": "Surf & Turf Grill",
@@ -52,7 +52,7 @@
       "website": "https://surfturfgrill.com",
       "image": "teste.jpg",
       "membershipLevel": 1,
-      "mapLink": "https://maps.google.com/?q=34.067890,-118.678901"
+      "mapLink": "https://maps.google.com/?q=-12.98,-38.50"
     },
     {
       "name": "Adventure Cove",
@@ -61,7 +61,7 @@
       "website": "https://adventurecove.com",
       "image": "teste.jpg",
       "membershipLevel": 3,
-      "mapLink": "https://maps.google.com/?q=34.078901,-118.789012"
+      "mapLink": "https://maps.google.com/?q=-12.98,-38.50"
     }
   ]
 }

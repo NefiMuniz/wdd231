@@ -1,7 +1,11 @@
 /* Large View Styles */
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   header {
     padding: 1rem 2rem;
+  }
+
+  h2 {
+    text-align: center;
   }
 
   header h1,

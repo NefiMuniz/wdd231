@@ -21,7 +21,7 @@ function displaySpotlights(members) {
   spotlightCards.innerHTML = selectedmembers
     .map(member => `
       <div class="spotlight-card">
-        <h3>${members.name}</h3>
+        <h3>${member.name}</h3>
         <img src="images/${member.image}" alt="${member.name}">
         <p><strong>Address:</strong> ${member.address}</p>
         <p><strong>Phone:</strong> ${member.phone}</p>
