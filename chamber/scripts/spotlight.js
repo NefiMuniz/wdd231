@@ -25,7 +25,7 @@ function displaySpotlights(members) {
         <img src="images/${member.image}" alt="${member.name}">
         <p><strong>Address:</strong> ${member.address}</p>
         <p><strong>Phone:</strong> ${member.phone}</p>
-        <p><strong>Website:</strong> <a href="${member.website}" target="_blank"></a></p>
+        <a href="${member.website}" target="_blank">Visit Website</a>
         <p><strong>Membership Level:</strong> ${member.membershipLevel === 1 ? '🥇 Gold' : '🥈 Silver'}</p>
       </div>
       `)

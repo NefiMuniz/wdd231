@@ -77,7 +77,7 @@ footer {
   display: none;
   background: none;
   border: none;
-  color: #fff;
+  color: #000000;
   font-size: 1.5rem;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -91,12 +91,13 @@ footer {
 @media (max-width: 768px) {
   #hamburgerBtn {
     display: block;
+    /* float: right; */
   }
 
   nav ul {
     flex-direction: column;
     background-color: #333;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     left: 0;
     top: 140px;
