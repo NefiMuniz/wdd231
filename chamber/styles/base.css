@@ -169,6 +169,7 @@ form label {
   max-width: 400px;
   text-align: center;
   transition: transform 0.3s ease;
+  animation: subtlePulse 10s infinite;
 }
 
 .membership-card:hover {
@@ -178,6 +179,17 @@ form label {
 #membership-info::backdrop {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(2px);
+}
+
+@keyframes subtlePulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 0.8;
+}
 }
 
   /* Medal Animations */
