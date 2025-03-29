@@ -59,4 +59,29 @@
     margin-top: 0;
   }
 
+  /* Form and cards */
+  .join-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 2rem auto;
+  }
+
+  .membership-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Medal Animations */
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+
 }

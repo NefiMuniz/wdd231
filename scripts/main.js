@@ -1,5 +1,33 @@
 // Course container
 const courseContainer = document.querySelector('.courses');
+const courseInfoDialog = document.getElementById('course-info');
+
+function openCourseInfo(course) {
+    courseInfoDialog.innerHTML = `
+        <div class="dialog-content">
+            <div class="dialog-header">
+                <h2>${course.subject} ${course.number}</h2>
+                <button class="close-btn" onclick="closeCourseInfo()">X</button>
+            </div>
+            <h3>${course.title}</h3>
+            <p><strong>Credits:</strong> ${course.credits}</p>
+            <p><strong>Certificate:</strong> ${course.certificate}</p>
+            <p>${course.description}</p>
+            <p><strong>Technology:</strong> ${course.technology.join(", ")}</p>
+        </div>
+    `;
+    courseInfoDialog.showModal();
+
+    courseInfoDialog.addEventListener('click', (e) => {
+        if (e.target === courseInfoDialog) {
+            closeCourseInfo();
+        }
+    });
+}
+
+function closeCourseInfo() {
+    courseInfoDialog.close();
+}
 
 // Showing function
 function displayCourses(filter = 'all') {
@@ -31,6 +59,10 @@ function displayCourses(filter = 'all') {
         if (course.completed) {
             courseCard.classList.add('completed');
         }
+
+        // Dialog pop up
+        courseCard.addEventListener('click', () => openCourseInfo(course));
+
         buttonContainer2.appendChild(courseCard);
     });
 

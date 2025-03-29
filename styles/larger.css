@@ -5,24 +5,31 @@
     }
     
     /* Navigation */
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0.5rem 2rem;
-    }
-    nav button {
+    #menu-button {
         display: none;
     }
-    nav ul {
+
+    #nav-menu {
         display: flex;
+        justify-content: space-evenly;
+        position: static;
         flex-direction: row;
-        gap: 1rem;
-        justify-content: center;
-        flex: 1;
+        width: auto;
+        background-color: transparent;
+        }
+
+    #nav-menu li {
+        border-top: none;
     }
-    nav li {
-        border: none;
+
+    #nav-menu a {
+        padding: 0.5rem 1rem;
+    }
+
+    #nav-menu a:hover,
+    #nav-menu a.active {
+        background: #ffcc00;
+        color: #333;
     }
     
     /* Main Layout */
@@ -40,7 +47,6 @@
     section {
         text-align: center;
     }
-
 
     /* Buttons Layout */
     .button-container-1 {
@@ -83,5 +89,10 @@
     .button-container-2 .btn-2:hover {
         background: #ffcc22;
         color: rgb(0, 0, 0);
+    }
+
+    /* Dialog pop up */
+    #course-info {
+        max-width: 800px;
     }
 }

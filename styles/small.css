@@ -31,53 +31,58 @@ header span {
 /* Navigation */
 nav {
     background: #333;
-    padding: 0.2rem 0;
-    display: grid;
-    grid-template-rows: 0fr;
-    transition: grid-template-rows 0.5s ease-out;
-}
-nav.open {
-    grid-template-rows: 1fr;
-}
-nav button {
-    background: none;
-    border: none;
-    font-size: 2rem;
-    color: white;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 0.2rem;
-    margin: 0 auto;
-}
-nav ul {
-    display: none;
-    flex-direction: column;
-    text-align: left;
-    padding-left: 1rem;
-}
-nav ul.active {
-    display: flex;
-}
-nav li {
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-nav a {
-    display: block;
-    padding: 1rem;
-    text-decoration: none;
-    color: white;
-}
-nav a:hover, nav a.active {
-    background: #ffcc00;
-    color: #333;
+    padding: 0.5rem 1rem;
+    position: relative;
 }
 
 #menu-button {
-    transition: transform 0.5s ease-in;
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: transform 0.2s ease-in;
 }
+
+#nav-menu {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+    /* position: absolute; */
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    z-index: 1000;
+}
+
+#nav-menu.open {
+    display: flex;
+}
+
 #menu-button.open {
     transform: rotate(90deg);
+}
+
+#nav-menu li {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+
+#nav-menu a:hover,
+#nav-menu a.active {
+    background: #ffcc00;
+    color: #333;
 }
 
 
@@ -176,4 +181,41 @@ footer {
 
 .course-card p {
     margin: 0.5rem 0;
+}
+
+/* Dialog pop up */
+#course-info {
+    border: none;
+    border-radius: 8px;
+    padding: 0;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #0077b6;
+    color: white;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0 0.5rem;
+}
+
+.dialog-content {
+    padding: 1rem;
+}
+
+#course-info::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
 }

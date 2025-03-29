@@ -32,6 +32,13 @@ header span {
   color: #333;
 }
 
+main h1 {
+  text-align: center;
+}
+main p {
+  text-align: center;
+}
+
 nav {
   background-color: #333;
   padding: 0.5rem;
@@ -86,6 +93,129 @@ footer {
 #hamburgerBtn.open {
   transform: rotate(90deg);
 }
+
+/* Form styles */
+.join-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.join-container label {
+  display: block;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.join-container input,
+.join-container select,
+.join-container textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.join-container textarea {
+  resize: vertical;
+}
+
+.join-container button {
+  background-color: #ffd700;
+  color: #333;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+form {
+  background-color: #f4f4f4;
+  flex: 1;
+  margin-right: 2rem;
+}
+form label {
+  margin: 0.5rem 0.5rem;
+}
+
+.join-container button:hover {
+  background-color: #e6c200;
+}
+
+/* Membership Cards */
+.membership-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.membership-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.membership-card:hover {
+  transform: scale(1.05);
+}
+
+#membership-info::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+  /* Medal Animations */
+  .title-container span {
+    display: flex;
+    justify-content: center;
+  }
+
+  .medal {
+    font-size: 2rem;
+    opacity: 0;
+  }
+  
+  .gold {
+    /* animation-delay: 0s; */
+    animation: fadeInOut 3s infinite;
+  }
+  
+  .silver {
+    animation: fadeInOut 4s infinite;
+    /* animation-delay: 2s; */
+  }
+  
+  .bronze {
+    animation: fadeInOut 5s infinite;
+    /* animation-delay: 4s; */
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  }
 
 /* Responsive Navigation */
 @media (max-width: 768px) {
