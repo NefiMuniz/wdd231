@@ -85,3 +85,33 @@
   }
 
 }
+
+/* Medium Screens (641px to 1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .place-card {
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas: "image content";
+  }
+}
+
+/* Large Screens (1025px and above) */
+@media (min-width: 1025px) {
+  .places-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .place-card {
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas: "image content";
+  }
+
+  .card-dialog {
+    width: 70%;
+    max-width: 1000px;
+  }
+  
+  .dialog-content {
+      max-width: 60%;
+      padding: 3rem;
+  }
+}

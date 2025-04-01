@@ -192,42 +192,127 @@ form label {
 }
 }
 
-  /* Medal Animations */
-  .title-container span {
-    display: flex;
-    justify-content: center;
-  }
+/* Medal Animations */
+.title-container span {
+  display: flex;
+  justify-content: center;
+}
 
-  .medal {
-    font-size: 2rem;
+.medal {
+  font-size: 2rem;
+  opacity: 0;
+}
+
+.gold {
+  /* animation-delay: 0s; */
+  animation: fadeInOut 3s infinite;
+}
+
+.silver {
+  animation: fadeInOut 4s infinite;
+  /* animation-delay: 2s; */
+}
+
+.bronze {
+  animation: fadeInOut 5s infinite;
+  /* animation-delay: 4s; */
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
     opacity: 0;
+    transform: scale(0.8);
   }
-  
-  .gold {
-    /* animation-delay: 0s; */
-    animation: fadeInOut 3s infinite;
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
   }
-  
-  .silver {
-    animation: fadeInOut 4s infinite;
-    /* animation-delay: 2s; */
-  }
-  
-  .bronze {
-    animation: fadeInOut 5s infinite;
-    /* animation-delay: 4s; */
-  }
-  
-  @keyframes fadeInOut {
-    0%, 100% {
-      opacity: 0;
-      transform: scale(0.8);
-    }
-    50% {
-      opacity: 1;
-      transform: scale(1.2);
-    }
-  }
+}
+
+/* Discover */
+.places-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.place-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: grid;
+  grid-template-areas:
+      "image"
+      "content";
+}
+
+.card-image {
+  grid-area: image;
+}
+
+.card-image img {
+  width: 90%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  grid-area: content;
+  padding: 1rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.learn-more {
+  background-color: #ffd700;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  justify-self: start;
+}
+
+/* Dialog styles */
+.card-dialog {
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+  width: 90%;
+  max-width: 800px;
+  background: transparent;
+}
+
+.card-dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dialog-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+.close-dialog {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  line-height: 1;
+}
+
+.dialog-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
 
 /* Responsive Navigation */
 @media (max-width: 768px) {
