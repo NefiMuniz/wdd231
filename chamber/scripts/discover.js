@@ -23,9 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
       card.className = "place-card";
 
       card.innerHTML = `
-              <div class="card-image">
+              <figure class="card-image">
                   <img src="${place.image_link}" alt="${place.alt}" loading="lazy">
-              </div>
+                  <figcaption>${place.title}</figcaption>
+              </figure>
               <div class="card-content">
                   <h2>${place.title}</h2>
                   <p class="address">${place.address}</p>
@@ -60,12 +61,13 @@ document.addEventListener("DOMContentLoaded", function () {
     dialog.innerHTML = `
         <div class="dialog-content">
           <button class="close-dialog">&times;</button>
-          <img src="${place.image_link}" alt="${
-      place.alt
-    }">
+          <figure class="dialog-image">
+            <img src="${place.image_link}" alt="${place.alt}">
+            <figcaption>${place.title}</figcaption>
+          </figure>
           <h2>${place.title}</h2>
-          <p class="address">${place.address}</p>
-          <p class="description">${place.description}</p>
+          <p class="address"><strong>Location:</strong> ${place.address}</p>
+          <p class="description"><strong>Description:</strong> ${place.description}</p>
         </div>
       `;
 
