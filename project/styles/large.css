@@ -1,5 +1,5 @@
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 2rem;
     display: grid;
@@ -12,16 +12,16 @@
 }
 
 .scenarios-section {
-    grid-column: 1 / -1;
+    grid-column: 1 / 2;
 }
 
 .color-palette {
-    grid-column: 1 / 2;
-    /* grid-row: 2 / 3; */
+    grid-column: 1 / -1;
+    grid-row: 4 / 4;
 }
 
 .typography {
-    grid-column: 2 / 3;
+    grid-column: 2 / 2;
 }
 
 header {
@@ -41,8 +41,8 @@ h2 {
 }
 
 .color-swatch {
-    width: 120px;
-    height: 120px;
+    width: 220px;
+    height: 80px;
     padding-top: 2.5rem;
 }
 
