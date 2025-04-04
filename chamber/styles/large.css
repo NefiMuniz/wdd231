@@ -84,6 +84,50 @@
     position: relative;
   }
 
+  .visit-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    left: auto;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.card-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+  /* transition: all 0.3s ease; */
+}
+
+.card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
+
+.card-image figcaption {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.place-card:hover .card-image img {
+  transform: scale(1.05);
+}
+
+.place-card:hover .card-image figcaption {
+  bottom: 0;
+}
 }
 
 /* Medium Screens (641px to 1024px) */

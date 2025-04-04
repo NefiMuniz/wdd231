@@ -2,75 +2,84 @@
   "places": [
     {
       "id": 1,
-      "title": "Fish Market (Mercado do Peixe)",
+      "title": "Mercado do Peixe",
       "alt": "Fish Market in Salvador, Bahia",
-      "image_link": "./images/teste.jpg",
+      "image_link": "./images/fishmarket.webp",
       "address": "Av. Oscar Pontes, 1 - Monte Serrat, Salvador - BA, Brazil",
-      "description": "A bustling hub of seafood trade, the Fish Market is where local fishermen and vendors offer fresh catches daily. Located by the waterfront, it's essential for the city's gastronomy, supplying restaurants and homes with a diverse selection of fish and seafood."
+      "short_description": "A lively seafood market supplying fresh fish daily.",
+      "description": "A bustling hub of seafood trade, the Fish Market is where local fishermen and vendors offer fresh catches daily. Located by the waterfront, it's essential for the city's gastronomy, supplying restaurants and homes with a diverse selection of fish and seafood. The market is also a great place to experience the vibrant culture of Salvador's fishing community."
     },
     {
       "id": 2,
       "title": "Vila Caramuru",
       "alt": "Vila Caramuru neighborhood in Salvador",
-      "image_link": "./images/teste.jpg",
+      "image_link": "./images/caramuru.webp",
       "address": "Vila Caramuru, Salvador - BA, Brazil",
-      "description": "Once a historic fish market, Vila Caramuru has transformed into a lively gastronomic and cultural center with popular seafood restaurants, live music, and vibrant nightlife, attracting both locals and tourists."
+      "short_description": "A historic fish market turned cultural hotspot.",
+      "description": "Once a historic fish market, Vila Caramuru has transformed into a lively gastronomic and cultural center with popular seafood restaurants, live music, and vibrant nightlife, attracting both locals and tourists. The area's unique atmosphere makes it a perfect destination for dining and entertainment by the sea."
     },
     {
       "id": 3,
-      "title": "Barra Lighthouse (Farol da Barra)",
+      "title": "Farol da Barra",
       "alt": "Barra Lighthouse by the sea in Salvador",
-      "image_link": "./images/teste.jpg",
+      "image_link": "./images/barra.webp",
       "address": "Largo do Farol da Barra, s/n - Barra, Salvador - BA, Brazil",
-      "description": "Standing at the entrance of All Saints Bay, the Barra Lighthouse is a historic landmark offering stunning ocean views and housing the Nautical Museum of Bahia. It is a favorite spot for sunset watchers and an important cultural attraction in Salvador."
+      "short_description": "A historic lighthouse with stunning views.",
+      "description": "Standing at the entrance of All Saints Bay, the Barra Lighthouse is a historic landmark offering stunning ocean views and housing the Nautical Museum of Bahia. It is a favorite spot for sunset watchers and an important cultural attraction in Salvador. The surrounding area is also a popular spot for outdoor activities and festivals."
     },
     {
       "id": 4,
-      "title": "São Joaquim Fair (Feira de São Joaquim)",
+      "title": "Feira de São Joaquim",
       "alt": "São Joaquim Market in Salvador",
-      "image_link": "./images/teste.jpg",
+      "image_link": "./images/feira.webp",
       "address": "Feira de São Joaquim, Salvador - BA, Brazil",
-      "description": "A massive open-air market offering everything from fresh produce to handmade crafts, São Joaquim Fair is a key marketplace where vendors sell spices, fruits, meats, and traditional Bahian products, maintaining the city's rich cultural identity."
+      "short_description": "A vibrant open-air market with local products.",
+      "description": "A massive open-air market offering everything from fresh produce to handmade crafts, São Joaquim Fair is a key marketplace where vendors sell spices, fruits, meats, and traditional Bahian products, maintaining the city's rich cultural identity. It’s a must-visit for those looking to experience authentic Bahian flavors and traditions."
     },
     {
       "id": 5,
-      "title": "Bonfim Church (Igreja do Bonfim)",
+      "title": "Igreja do Bonfim",
       "alt": "Famous Bonfim Church in Salvador",
-      "image_link": "./images/teste.jpg",
+      "image_link": "./images/bonfim.webp",
       "address": "Largo do Bonfim, s/n - Bonfim, Salvador - BA, Brazil",
-      "description": "A symbol of faith and tradition, Bonfim Church is famous for its religious celebrations and the iconic Bonfim ribbons. It attracts thousands of pilgrims annually, contributing to Salvador’s spiritual and cultural tourism."
+      "short_description": "A sacred site known for faith and tradition.",
+      "description": "A symbol of faith and tradition, Bonfim Church is famous for its religious celebrations and the iconic Bonfim ribbons. It attracts thousands of pilgrims annually, contributing to Salvador’s spiritual and cultural tourism. The church’s grand architecture and serene atmosphere make it a place of devotion and beauty."
     },
     {
       "id": 6,
-      "title": "Modelo Market (Mercado Modelo)",
+      "title": "Mercado Modelo",
       "alt": "Modelo Market in Salvador",
-      "image_link": "./images/teste.jpg",
+      "image_link": "./images/mercado.webp",
       "address": "Praça Visc. de Cayru, 250 - Comércio, Salvador - BA, Brazil",
-      "description": "One of Salvador’s most famous handicraft markets, Mercado Modelo is a lively spot where visitors can find authentic Bahian souvenirs, local artworks, and traditional food while enjoying views of All Saints Bay."
+      "short_description": "A famous market for Bahian crafts and souvenirs.",
+      "description": "One of Salvador’s most famous handicraft markets, Mercado Modelo is a lively spot where visitors can find authentic Bahian souvenirs, local artworks, and traditional food while enjoying views of All Saints Bay. The market’s colonial-style architecture adds to its charm and historical significance."
     },
     {
       "id": 7,
-      "title": "Lacerda Elevator (Elevador Lacerda)",
+      "title": "Elevador Lacerda",
       "alt": "Lacerda Elevator connecting upper and lower Salvador",
-      "image_link": "./images/teste.jpg",
+      "image_link": "./images/elevador.webp",
       "address": "Praça Tomé de Souza, s/n - Comércio, Salvador - BA, Brazil",
-      "description": "Connecting Salvador’s upper and lower city, the Lacerda Elevator is a historical structure and a key transportation link. It provides stunning views of the bay and serves as a major landmark for tourists and locals alike."
+      "short_description": "An iconic city elevator with bay views.",
+      "description": "Connecting Salvador’s upper and lower city, the Lacerda Elevator is a historical structure and a key transportation link. It provides stunning views of the bay and serves as a major landmark for tourists and locals alike. The elevator’s Art Deco design and panoramic vista make it a must-see attraction."
     },
     {
       "id": 8,
       "title": "Ribeira",
       "alt": "Ribeira neighborhood in Salvador",
-      "image_link": "./images/teste.jpg",
+      "image_link": "./images/ribeira.webp",
       "address": "Ribeira, Salvador - BA, Brazil",
-      "description": "Known for its scenic bay views and famous ice cream shop, Ribeira is a historic neighborhood with strong commercial activity, hosting a variety of restaurants, bars, and cultural events that enrich Salvador’s tourism and economy."
+      "short_description": "A coastal neighborhood famous for its ice cream.",
+      "description": "Known for its scenic bay views and famous ice cream shop, Ribeira is a historic neighborhood with strong commercial activity, hosting a variety of restaurants, bars, and cultural events that enrich Salvador’s tourism and economy. The neighborhood is also a great place to enjoy local seafood and waterfront leisure activities."
     },
     {
       "id": 9,
       "title": "CEASA Rio Vermelho",
       "alt": "CEASA wholesale market in Rio Vermelho",
-      "image_link": "./images/teste.jpg",
+      "image_link": "./images/ceasa.webp",
       "address": "Av. Adhemar de Barros, 2001 - Rio Vermelho, Salvador - BA, Brazil",
-      "description": "A major wholesale market, CEASA Rio Vermelho plays a crucial role in Salvador’s food supply chain, providing fresh produce to restaurants, supermarkets, and street vendors across the city."
+      "short_description": "A major wholesale market in Salvador.",
+      "description": "A major wholesale market, CEASA Rio Vermelho plays a crucial role in Salvador’s food supply chain, providing fresh produce to restaurants, supermarkets, and street vendors across the city. It is also a key economic hub supporting small and large-scale food businesses."
     }
   ]
 }

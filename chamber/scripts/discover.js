@@ -29,7 +29,8 @@ document.addEventListener("DOMContentLoaded", function () {
               </figure>
               <div class="card-content">
                   <h2>${place.title}</h2>
-                  <p class="address">${place.address}</p>
+                  <p class="address"><strong>Address:</strong> ${place.address}</p>
+                  <p class="short_description"><strong>Description:</strong> ${place.short_description}</p>
                   <button class="learn-more" data-place-id="${place.id}">Learn More</button>
               </div>
           `;
