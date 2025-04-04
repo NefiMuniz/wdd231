@@ -1,9 +1,9 @@
 :root {
-  --primary-cool: #3498db;  /* Serene Blue */
-  --secondary-cool: #2ecc71;  /* Fresh Green */
-  --accent-warm: #e74c3c;  /* Vibrant Red */
-  --light-neutral: #ecf0f1;  /* Cloud White */
-  --dark-neutral: #2c3e50;  /* Midnight Blue */
+  --primary-cool: #1b3bca;
+  --secondary-cool: #1c9e52;
+  --accent-warm: #e74c3c;
+  --light-neutral: #ecf0f1;
+  --dark-neutral: #2c3e50;
 
   --font-primary: 'Rubik', sans-serif;
   --font-secondary: 'Inter', sans-serif;
