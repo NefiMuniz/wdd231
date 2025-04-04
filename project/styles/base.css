@@ -128,6 +128,11 @@ li {
   border: 1px solid #ddd;
 }
 
+.mobile-wireframe a,
+.desktop-wireframe a {
+  display: inline-block;
+}
+
 figure {
   margin: 1rem 0;
 }
