@@ -1,0 +1,85 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "title": "Mercado do Peixe",
+      "alt": "Mercado do Peixe em Salvador, Bahia",
+      "image_link": "./images/teste.jpg",
+      "address": "Av. Oscar Pontes, 1 - Monte Serrat, Salvador - BA, Brasil",
+      "short_description": "Um mercado de frutos do mar movimentado que fornece peixe fresco diariamente.",
+      "description": "Um centro agitado de comércio de frutos do mar, o Mercado do Peixe é onde pescadores e vendedores locais oferecem suas capturas frescas diariamente. Localizado à beira-mar, é essencial para a gastronomia da cidade, abastecendo restaurantes e lares com uma seleção diversificada de peixes e frutos do mar. O mercado também é um ótimo lugar para vivenciar a vibrante cultura da comunidade pesqueira de Salvador."
+    },
+    {
+      "id": 2,
+      "title": "Vila Caramuru",
+      "alt": "Bairro Vila Caramuru em Salvador",
+      "image_link": "./images/teste.jpg",
+      "address": "Vila Caramuru, Salvador - BA, Brasil",
+      "short_description": "Um antigo mercado de peixe transformado em ponto cultural.",
+      "description": "Antigamente um mercado de peixe histórico, a Vila Caramuru se transformou em um animado centro gastronômico e cultural, com restaurantes populares de frutos do mar, música ao vivo e uma vida noturna vibrante, atraindo tanto moradores quanto turistas. A atmosfera única da área a torna um destino perfeito para refeições e entretenimento à beira-mar."
+    },
+    {
+      "id": 3,
+      "title": "Farol da Barra",
+      "alt": "Farol da Barra à beira-mar em Salvador",
+      "image_link": "./images/teste.jpg",
+      "address": "Largo do Farol da Barra, s/n - Barra, Salvador - BA, Brasil",
+      "short_description": "Um farol histórico com vistas deslumbrantes.",
+      "description": "Situado na entrada da Baía de Todos os Santos, o Farol da Barra é um marco histórico que oferece vistas deslumbrantes do oceano e abriga o Museu Náutico da Bahia. É um local favorito para observar o pôr do sol e uma importante atração cultural em Salvador. A área ao redor também é um ponto popular para atividades ao ar livre e festivais."
+    },
+    {
+      "id": 4,
+      "title": "Feira de São Joaquim",
+      "alt": "Mercado São Joaquim em Salvador",
+      "image_link": "./images/teste.jpg",
+      "address": "Feira de São Joaquim, Salvador - BA, Brasil",
+      "short_description": "Um mercado vibrante ao ar livre com produtos locais.",
+      "description": "Um enorme mercado ao ar livre que oferece desde produtos frescos até artesanato, a Feira de São Joaquim é um mercado essencial onde vendedores comercializam especiarias, frutas, carnes e produtos tradicionais baianos, mantendo viva a rica identidade cultural da cidade. É uma visita obrigatória para quem deseja experimentar os autênticos sabores e tradições da Bahia."
+    },
+    {
+      "id": 5,
+      "title": "Igreja do Bonfim",
+      "alt": "Famosa Igreja do Bonfim em Salvador",
+      "image_link": "./images/teste.jpg",
+      "address": "Largo do Bonfim, s/n - Bonfim, Salvador - BA, Brasil",
+      "short_description": "Um local sagrado conhecido pela fé e tradição.",
+      "description": "Símbolo de fé e tradição, a Igreja do Bonfim é famosa por suas celebrações religiosas e pelas icônicas fitas do Bonfim. Atrai milhares de peregrinos anualmente, contribuindo para o turismo espiritual e cultural de Salvador. A grandiosa arquitetura da igreja e sua atmosfera serena fazem dela um lugar de devoção e beleza."
+    },
+    {
+      "id": 6,
+      "title": "Mercado Modelo",
+      "alt": "Mercado Modelo em Salvador",
+      "image_link": "./images/teste.jpg",
+      "address": "Praça Visc. de Cayru, 250 - Comércio, Salvador - BA, Brasil",
+      "short_description": "Um famoso mercado de artesanato baiano e souvenirs.",
+      "description": "Um dos mercados de artesanato mais famosos de Salvador, o Mercado Modelo é um local animado onde os visitantes podem encontrar souvenirs autênticos da Bahia, obras de arte locais e comida tradicional, enquanto apreciam a vista da Baía de Todos os Santos. A arquitetura colonial do mercado adiciona charme e significado histórico ao local."
+    },
+    {
+      "id": 7,
+      "title": "Elevador Lacerda",
+      "alt": "Elevador Lacerda conectando a cidade alta e baixa de Salvador",
+      "image_link": "./images/teste.jpg",
+      "address": "Praça Tomé de Souza, s/n - Comércio, Salvador - BA, Brasil",
+      "short_description": "Um elevador icônico da cidade com vista para a baía.",
+      "description": "Conectando a cidade alta e a cidade baixa de Salvador, o Elevador Lacerda é uma estrutura histórica e um importante meio de transporte. Ele oferece vistas deslumbrantes da baía e é um marco importante para turistas e moradores. Seu design Art Déco e vista panorâmica fazem dele uma atração imperdível."
+    },
+    {
+      "id": 8,
+      "title": "Ribeira",
+      "alt": "Bairro Ribeira em Salvador",
+      "image_link": "./images/teste.jpg",
+      "address": "Ribeira, Salvador - BA, Brasil",
+      "short_description": "Um bairro litorâneo famoso por seu sorvete.",
+      "description": "Conhecido por suas vistas cênicas da baía e pela famosa sorveteria, Ribeira é um bairro histórico com forte atividade comercial, abrigando uma variedade de restaurantes, bares e eventos culturais que enriquecem o turismo e a economia de Salvador. O bairro também é um ótimo local para desfrutar frutos do mar locais e atividades de lazer à beira-mar."
+    },
+    {
+      "id": 9,
+      "title": "CEASA Rio Vermelho",
+      "alt": "Mercado atacadista CEASA no Rio Vermelho",
+      "image_link": "./images/teste.jpg",
+      "address": "Av. Adhemar de Barros, 2001 - Rio Vermelho, Salvador - BA, Brasil",
+      "short_description": "Um importante mercado atacadista em Salvador.",
+      "description": "Um grande mercado atacadista, o CEASA Rio Vermelho desempenha um papel crucial na cadeia de abastecimento alimentar de Salvador, fornecendo produtos frescos para restaurantes, supermercados e vendedores ambulantes por toda a cidade. Também é um importante centro econômico que apoia pequenos e grandes negócios alimentícios."
+    }
+  ]
+}

@@ -82,7 +82,8 @@ main h1 {
 }
 
 /* Weather Section */
-.weather-card {
+.weather-card,
+.forecast-card {
   width: 90%;
   max-width: 300px;
   margin: 1rem auto;
@@ -93,11 +94,23 @@ main h1 {
   text-align: center;
 }
 
-.weather-card img {
+.weather-card img,
+.forecast-card img {
   margin: 0 auto 1rem;
   display: block;
   width: 100px;
   height: 100px;
+}
+
+#forecast-container {
+  margin-top: 1rem;
+}
+
+.forecast-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
 }
 
 /* Spotlights Section */
@@ -161,5 +174,10 @@ main h1 {
 
   .event-card {
     width: calc(50% - 1rem);
+  }
+
+  .forecast-wrapper {
+    flex-direction: row;
+    justify-content: center;
   }
 }

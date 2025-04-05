@@ -12,16 +12,18 @@ document.addEventListener('DOMContentLoaded', function() {
       const lastVisit = localStorage.getItem('lastVisit');
       const now = Date.now();
       localStorage.setItem('lastVisit', now.toString());
-      
+
       let message;
       
       if (!lastVisit) {
           // First visit
           message = "Welcome! Let us know if you have any questions.";
       } else {
-          const daysSince = Math.floor((now - parseInt(lastVisit)) / (1000 * 60 * 60 * 24));
+          const daysSince =
+        //   12; testing message
+          Math.floor((now - parseInt(lastVisit)) / (1000 * 60 * 60 * 24));
           
-          if (daysSince === 0) {
+          if (daysSince < 1) {
               message = "Back so soon! Awesome!";
           } else {
               message = `You last visited ${daysSince} day${daysSince === 1 ? '' : 's'} ago.`;
