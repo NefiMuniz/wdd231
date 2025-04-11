@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Retailer portal for PriceShare - Add and manage your products">
+    <title>Retailers - PriceShare</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/retailers.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="PriceShare logo" class="logo">
+            </div>
+        </header>
+            <nav class="main-nav">
+                <button class="hamburger" aria-label="Menu">
+                  ☰
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="retailers.html" class="active">Retailers</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    <main class="retailers-container">
+        <section class="retailer-portal">
+            <h1>Retailer Portal</h2>
+            <div class="retailer-content">
+                <div class="add-product-form">
+                    <form id="productForm">
+                        <h2>Add New Product</h3>
+                        <div class="form-group">
+                            <label for="productName">Product Name:</label>
+                            <input type="text" id="productName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="productPrice">Price ($):</label>
+                            <input type="number" id="productPrice" min="0" step="0.01" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="productStore">Store:</label>
+                            <select id="productStore" required>
+                                <option value="">Select Store</option>
+                                <option value="Walmart">Walmart</option>
+                                <option value="Target">Target</option>
+                                <option value="Best Buy">Best Buy</option>
+                                <option value="Amazon">Amazon</option>
+                                <option value="Whole Foods">Whole Foods</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="productCategory">Category:</label>
+                            <select id="productCategory" required>
+                                <option value="">Select Category</option>
+                                <option value="Electronics">Electronics</option>
+                                <option value="Groceries">Groceries</option>
+                                <option value="Home">Home</option>
+                                <option value="Clothing">Clothing</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="productImage">Image URL:</label>
+                            <input type="text" id="productImage" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="productDescription">Description:</label>
+                            <textarea id="productDescription" rows="3" required></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="productFeatured">
+                            <label for="productFeatured">Featured Product</label>
+                        </div>
+                        <button type="submit" class="submit-btn">Add Product</button>
+                    </form>
+                </div>
+                
+                <div class="retailer-info">
+                    <h3>Your Products</h3>
+                    <div class="products-list" id="retailerProducts"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 id="modalTitle">Success!</h3>
+            <div class="modal-body" id="modalMessage">
+                Product added successfully.
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section brand">
+                <h4>PriceShare</h4>
+                <p>Helping consumers make smarter shopping decisions since 2023</p>
+            </div>
+            <div class="footer-section connect">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/"><i class="fab fa-facebook" aria-hidden="true"></i>
+                      <span class="visually-hidden">Facebook</span></a>
+                  <a href="https://x.com/"><i class="fab fa-twitter" aria-hidden="true"></i>
+                      <span class="visually-hidden">Twitter</span></a>
+                  <a href="https://www.instagram.com/"><i class="fab fa-instagram" aria-hidden="true"></i>
+                      <span class="visually-hidden">Instagram</span></a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; <span id="currentyear"></span> PriceShare All rights reserved.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

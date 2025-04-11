@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
           message = "Welcome! Let us know if you have any questions.";
       } else {
           const daysSince =
-        //   12; testing message
+        //   5; // testing message
           Math.floor((now - parseInt(lastVisit)) / (1000 * 60 * 60 * 24));
           
           if (daysSince < 1) {

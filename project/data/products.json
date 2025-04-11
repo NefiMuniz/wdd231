@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "price": 89.99,
+    "store": "Best Buy",
+    "category": "Electronics",
+    "image": "product1.webp",
+    "description": "Premium noise-cancelling headphones with 30-hour battery life",
+    "featured": true,
+    "lastUpdated": "2023-05-15"
+  },
+  {
+    "id": 2,
+    "name": "Organic Bananas (1 lb)",
+    "price": 0.69,
+    "store": "Walmart",
+    "category": "Groceries",
+    "image": "product2.webp",
+    "description": "Fresh organic bananas, perfect for smoothies or snacks",
+    "featured": true,
+    "lastUpdated": "2023-06-20"
+  },
+  {
+    "id": 3,
+    "name": "Stainless Steel Water Bottle",
+    "price": 24.95,
+    "store": "Target",
+    "category": "Home",
+    "image": "product3.webp",
+    "description": "Double-walled insulated bottle keeps drinks cold for 24 hours",
+    "featured": false,
+    "lastUpdated": "2023-04-10"
+  },
+  {
+    "id": 4,
+    "name": "Men's Running Shoes",
+    "price": 79.99,
+    "store": "Amazon",
+    "category": "Clothing",
+    "image": "product4.webp",
+    "description": "Lightweight running shoes with cushioned soles",
+    "featured": true,
+    "lastUpdated": "2023-06-15"
+  },
+  {
+    "id": 5,
+    "name": "4K Smart TV 55\"",
+    "price": 499.99,
+    "store": "Best Buy",
+    "category": "Electronics",
+    "image": "product5.webp",
+    "description": "Ultra HD smart TV with built-in streaming apps",
+    "featured": true,
+    "lastUpdated": "2023-05-30"
+  },
+  {
+    "id": 6,
+    "name": "Organic Free-Range Eggs (12 count)",
+    "price": 4.99,
+    "store": "Whole Foods",
+    "category": "Groceries",
+    "image": "product6.webp",
+    "description": "Certified organic eggs from free-range chickens",
+    "featured": false,
+    "lastUpdated": "2023-06-18"
+  },
+  {
+    "id": 7,
+    "name": "Ceramic Cookware Set",
+    "price": 129.95,
+    "store": "Target",
+    "category": "Home",
+    "image": "product7.webp",
+    "description": "10-piece non-stick ceramic cookware set",
+    "featured": false,
+    "lastUpdated": "2023-03-22"
+  },
+  {
+    "id": 8,
+    "name": "Women's Yoga Pants",
+    "price": 34.99,
+    "store": "Amazon",
+    "category": "Clothing",
+    "image": "product8.webp",
+    "description": "High-waisted yoga pants with moisture-wicking fabric",
+    "featured": true,
+    "lastUpdated": "2023-06-10"
+  },
+  {
+    "id": 9,
+    "name": "Wireless Charging Pad",
+    "price": 29.99,
+    "store": "Best Buy",
+    "category": "Electronics",
+    "image": "product9.webp",
+    "description": "Qi-certified fast wireless charging pad",
+    "featured": false,
+    "lastUpdated": "2023-04-05"
+  },
+  {
+    "id": 10,
+    "name": "Organic Almond Milk (1/2 gallon)",
+    "price": 3.49,
+    "store": "Whole Foods",
+    "category": "Groceries",
+    "image": "product10.webp",
+    "description": "Unsweetened organic almond milk, dairy-free",
+    "featured": false,
+    "lastUpdated": "2023-06-17"
+  },
+  {
+    "id": 11,
+    "name": "Air Fryer",
+    "price": 89.95,
+    "store": "Target",
+    "category": "Home",
+    "image": "product11.webp",
+    "description": "5.8-quart digital air fryer with 7 cooking presets",
+    "featured": true,
+    "lastUpdated": "2023-05-25"
+  },
+  {
+    "id": 12,
+    "name": "Men's Dress Shirt",
+    "price": 39.99,
+    "store": "Amazon",
+    "category": "Clothing",
+    "image": "product12.webp",
+    "description": "Classic fit non-iron dress shirt",
+    "featured": false,
+    "lastUpdated": "2023-03-15"
+  },
+  {
+    "id": 13,
+    "name": "Smartphone Gimbal",
+    "price": 99.99,
+    "store": "Best Buy",
+    "category": "Electronics",
+    "image": "product13.webp",
+    "description": "3-axis smartphone stabilizer for smooth video",
+    "featured": false,
+    "lastUpdated": "2023-04-18"
+  },
+  {
+    "id": 14,
+    "name": "Organic Avocados (4 count)",
+    "price": 3.99,
+    "store": "Walmart",
+    "category": "Groceries",
+    "image": "product14.webp",
+    "description": "Hass avocados, perfect for guacamole",
+    "featured": true,
+    "lastUpdated": "2023-06-19"
+  },
+  {
+    "id": 15,
+    "name": "Robot Vacuum",
+    "price": 249.99,
+    "store": "Target",
+    "category": "Home",
+    "image": "product15.webp",
+    "description": "Smart robot vacuum with app control and mapping",
+    "featured": true,
+    "lastUpdated": "2023-06-01"
+  }
+]
