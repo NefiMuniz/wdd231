@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: var(--font-secondary);
+  font-family: var(--font-secondary), sans-serif;
   font-weight: var(--regular);
   line-height: 1.6;
   color: var(--dark-neutral);
@@ -67,7 +67,6 @@ header {
 .main-nav {
   background: var(--dark-neutral);
   padding: 0.5rem 1rem;
-  /* align-self: flex-end; */
   position: relative;
 }
 
@@ -182,7 +181,7 @@ h2 {
   margin-top: 1rem;
 }
 
-.products-card:hover{
+.product-card:hover{
   transform: translateY(-5px);
 }
 
@@ -214,7 +213,6 @@ h2 {
 .product-card .store {
   background-color: var(--light-neutral);
   color: var(--dark-neutral);
-  /* opacity: 0.8; */
   font-size: 0.9rem;
 }
 
@@ -482,9 +480,25 @@ footer {
 }
 
 .social-icons {
-  background-color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.social-icons a {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .hidden {
