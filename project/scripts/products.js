@@ -1,7 +1,7 @@
-import { fetchProducts } from './productService.js';
+import { fetchProducts } from './product-service.js';
 import { showProductModal, setupModalCloseEvents } from './modal.js';
 import { addToComparison } from './storage.js';
-import { setupShoppingListModal, updateCartCount } from './shoppingListModal.js';
+import { setupShoppingListModal, updateCartCount } from './shopping-list-modal.js';
 
 const container = document.getElementById('allProducts');
 const categoryFilter = document.getElementById('categoryFilter');

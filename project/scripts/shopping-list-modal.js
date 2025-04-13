@@ -1,4 +1,3 @@
-// shoppingListModal.js
 import { getShoppingList, removeFromShoppingList, clearShoppingList } from './storage.js';
 
 let shoppingModal;

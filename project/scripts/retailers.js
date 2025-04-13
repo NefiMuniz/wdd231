@@ -1,7 +1,7 @@
 // retailers.js
-import { fetchProducts, saveProduct } from './productService.js';
+import { fetchProducts, saveProduct } from './product-service.js';
 import { showProductModal, setupModalCloseEvents } from './modal.js';
-import { setupShoppingListModal, updateCartCount } from './shoppingListModal.js';
+import { setupShoppingListModal, updateCartCount } from './shopping-list-modal.js';
 
 // DOM Elements
 const productForm = document.getElementById('productForm');

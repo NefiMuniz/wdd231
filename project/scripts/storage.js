@@ -1,4 +1,4 @@
-import { updateCartCount } from "./shoppingListModal.js";
+import { updateCartCount } from "./shopping-list-modal.js";
 
 export function addToShoppingList(product) {
   const list = JSON.parse(localStorage.getItem('shoppingList')) || [];

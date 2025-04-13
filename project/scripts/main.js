@@ -1,6 +1,6 @@
-import { fetchProducts } from './productService.js';
+import { fetchProducts } from './product-service.js';
 import { showProductModal, setupModalCloseEvents } from './modal.js';
-import { setupShoppingListModal, updateCartCount } from './shoppingListModal.js';
+import { setupShoppingListModal, updateCartCount } from './shopping-list-modal.js';
 
 async function displayFeaturedProducts() {
   const allProducts = await fetchProducts();

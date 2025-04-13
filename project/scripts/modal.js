@@ -1,4 +1,4 @@
-import { fetchProducts } from './productService.js';
+import { fetchProducts } from './product-service.js';
 import { addToShoppingList } from './storage.js';
 
 const modal = document.getElementById('productModal');
