@@ -1,6 +1,7 @@
 // retailers.js
 import { fetchProducts, saveProduct } from './productService.js';
 import { showProductModal, setupModalCloseEvents } from './modal.js';
+import { setupShoppingListModal, updateCartCount } from './shoppingListModal.js';
 
 // DOM Elements
 const productForm = document.getElementById('productForm');
@@ -65,4 +66,8 @@ productForm.addEventListener('submit', async (e) => {
 });
 
 // Initialize page
-loadRetailerProducts();
+document.addEventListener('DOMContentLoaded', () =>{
+  loadRetailerProducts();
+  setupShoppingListModal();
+  updateCartCount();
+});

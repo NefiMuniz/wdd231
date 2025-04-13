@@ -1,6 +1,7 @@
 import { fetchProducts } from './productService.js';
 import { showProductModal, setupModalCloseEvents } from './modal.js';
 import { addToComparison } from './storage.js';
+import { setupShoppingListModal, updateCartCount } from './shoppingListModal.js';
 
 const container = document.getElementById('allProducts');
 const categoryFilter = document.getElementById('categoryFilter');
@@ -66,5 +67,9 @@ categoryFilter.addEventListener('change', displayAllProducts);
 storeFilter.addEventListener('change', displayAllProducts);
 sortBy.addEventListener('change', displayAllProducts);
 
-displayAllProducts();
-setupModalCloseEvents();
+document.addEventListener('DOMContentLoaded', () =>{
+  displayAllProducts();
+  setupModalCloseEvents();
+  setupShoppingListModal();
+  updateCartCount();
+});

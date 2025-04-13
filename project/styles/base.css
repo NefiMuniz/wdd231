@@ -39,16 +39,15 @@ body {
 header {
   background-color: var(--primary-cool);
   color: white;
-  padding: 1.5rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   align-items: center;
 }
 
 .header-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  padding: 1rem;
+  padding: 0 1rem;
   margin: 0 auto;
 }
 
@@ -59,8 +58,8 @@ header {
 }
 
 .logo {
-  height: 160px;
-  width: 160px;
+  height: 300px;
+  width: 300px;
 }
 
 /* Navigation */
@@ -134,6 +133,94 @@ header p {
   font-weight: var(--medium);
 }
 
+/* Add to your CSS */
+.shopping-list-btn {
+  position: relative;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  position: absolute;
+  top: 8px;
+  right: -6px;
+  background: var(--accent-color);
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.shopping-list {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.shopping-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.shopping-list img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.shopping-list div {
+  flex-grow: 1;
+}
+
+.remove-item {
+  background: none;
+  border: none;
+  color: #ff4444;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.shopping-list-total {
+  text-align: right;
+  padding: 15px 0;
+  font-size: 1.2rem;
+}
+
+.shopping-list-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.shopping-list-actions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#printShoppingList {
+  background: #4CAF50;
+  color: white;
+}
+
+#clearShoppingList {
+  background: #f44336;
+  color: white;
+}
+
 h1, h2, h3 {
   font-family: var(--font-primary);
   font-weight: var(--bold);
@@ -155,6 +242,12 @@ h2 {
 .products-container,
 .retailers-container {
   padding: 1rem;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
 }
 
 .featured-products {

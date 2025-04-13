@@ -1,5 +1,6 @@
 import { fetchProducts } from './productService.js';
 import { showProductModal, setupModalCloseEvents } from './modal.js';
+import { setupShoppingListModal, updateCartCount } from './shoppingListModal.js';
 
 async function displayFeaturedProducts() {
   const allProducts = await fetchProducts();
@@ -38,5 +39,9 @@ async function displayFeaturedProducts() {
   });
 }
 
-displayFeaturedProducts();
-setupModalCloseEvents();
+document.addEventListener('DOMContentLoaded', () =>{
+  displayFeaturedProducts();
+  setupModalCloseEvents();
+  setupShoppingListModal();
+  updateCartCount();
+});

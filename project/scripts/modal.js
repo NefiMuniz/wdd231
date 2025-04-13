@@ -23,7 +23,7 @@ export async function showProductModal(productId) {
   modal.style.display = 'block';
 
   document.querySelector('.add-to-list').addEventListener('click', () => {
-    addToShoppingList(productId);
+    addToShoppingList(product);
   });
 }
 
